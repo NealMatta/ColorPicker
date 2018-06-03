@@ -1,0 +1,54 @@
+body{
+  background-color: #232323;
+}
+
+.header{
+  background: #5285B2;
+  color: white;
+  text-align: center;
+  margin: 0;
+  width: 100%;
+  /* height: auto; */
+}
+
+.difficulty{
+  background: white;
+  /* display: inline-flex; */
+  text-align: center;
+}
+
+.content{
+  max-width: 50%;
+  margin: 0 auto;
+  /* text-align: center; */
+  /* display: flex; */
+}
+
+.square{
+  width: 30%;
+  padding-bottom: 30%;
+  border-radius: 20px;
+  margin: 1.66%;
+  float: left;
+}
+#PickedColorDisplay{
+  text-transform: uppercase;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+h2{
+  font-size: 30px;
+}
+h1{
+  font-size: 50px;;
+}
+
+.selected {
+  background-color: #5285B2 ;
+}
+
+.hide {
+  display: none;
+}
