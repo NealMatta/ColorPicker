@@ -11,7 +11,6 @@ var hardBTN = document.querySelector("#hard");
 
 startGame();
 
-
 function startGame() {
   // Setting the correct Color
   pcDisplay.textContent = pickedColor;
@@ -72,7 +71,7 @@ function randomColor() {
 easyBTN.addEventListener("click", function() {
   easyBTN.classList.add("selected");
   hardBTN.classList.remove("selected");
-  
+
   colors = generateRandomColors(3);
   pickedColor = pickColor();
   pcDisplay.textContent = pickedColor;
